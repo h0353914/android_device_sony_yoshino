@@ -34,10 +34,6 @@ TARGET_KERNEL_CONFIG := lineage-msm8998-yoshino-poplar_kddi_defconfig
 
 BOARD_KERNEL_CMDLINE += androidboot.hardware=poplar_kddi
 
-# Point to the prebuilt kernel
-TARGET_FORCE_PREBUILT_KERNEL := true
-TARGET_PREBUILT_KERNEL := $(DEVICE_PLATFORM_PATH)/platform/poplar/prebuilt/Image.gz-dtb
-
 ### PARTITIONS
 # See also /proc/partitions on the device
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 5242880000
