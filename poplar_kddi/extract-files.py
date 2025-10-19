@@ -1,4 +1,4 @@
-#!/usr/bin/env -S PYTHONPATH=../../../tools/extract-utils python3
+#!/usr/bin/env -S PYTHONPATH=../../../../tools/extract-utils python3
 #
 # SPDX-FileCopyrightText: 2024 The LineageOS Project
 # SPDX-License-Identifier: Apache-2.0
@@ -53,7 +53,7 @@ blob_fixups: blob_fixups_user_type = {
 }  # fmt: skip
 
 module = ExtractUtilsModule(
-    'poplar',
+    'poplar_kddi',
     'sony',
     blob_fixups=blob_fixups,
     check_elf=False,
