@@ -181,7 +181,6 @@ vendor/lib/libjpegehw.so
 vendor/lib/libmmcamera2_cpp_module.so
 vendor/lib/libmmcamera2_mct.so
 vendor/lib/libmmcamera2_pp_buf_mgr.so
-vendor/lib/libmmcamera_dbg.so
 vendor/lib/libmmcamera_interface.so
 vendor/lib/libmmjpeg.so
 vendor/lib/libmmjpeg_interface.so
@@ -364,7 +363,6 @@ vendor/bin/qns
 
 # QSEECOMD
 vendor/bin/qseecomd
-vendor/lib64/libStDrvInt.so
 vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so
 
 # QTI_ANT
@@ -393,7 +391,6 @@ vendor/bin/hw/android.hardware.keymaster@3.0-service-qti
 vendor/etc/init/android.hardware.keymaster@3.0-service-qti.rc
 vendor/lib/hw/android.hardware.keymaster@3.0-impl-qti.so
 vendor/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so
-vendor/lib64/libkeymasterutils.so
 
 # QTI_QTEECONNECTOR
 vendor/lib64/vendor.qti.hardware.qteeconnector@1.0.so
@@ -451,7 +448,6 @@ vendor/lib64/vendor.semc.hardware.thermal@1.0.so
 vendor/app/TimeService/TimeService.apk
 vendor/bin/time_daemon
 vendor/lib/libtime_genoff.so
-vendor/lib64/libtime_genoff.so
 
 # TOUCHBACKLIGHT
 vendor/bin/hw/touchbacklightd
