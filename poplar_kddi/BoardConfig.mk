@@ -33,6 +33,7 @@ TARGET_BOOTLOADER_BOARD_NAME := G8341
 TARGET_KERNEL_CONFIG := lineage-msm8998-yoshino-poplar_kddi_defconfig
 
 BOARD_KERNEL_CMDLINE += androidboot.hardware=poplar_kddi
+BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 
 ### PARTITIONS
 # See also /proc/partitions on the device
